@@ -3,12 +3,13 @@
 // Define an object of type `Data` where `value` is a string "Generic" and `id` is 1.
 // Log the object.
 
-interface Data<number, any> {
+//In a generic interface don't need to specify the types in the interface
+interface Data<T> {
     id: number;
-    value: any;
+    value: T;
 }
 
-const data: Data <number, any> = { 
+const data: Data <string> = { 
     id: 1, 
     value: "Generic" 
 };
