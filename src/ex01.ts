@@ -2,7 +2,7 @@
 // and returns the first element of the array. 
 // Pass an array of strings ["Hello", "World"] and log the result.
 
-const getFirstElement = <T>(arr: T): T => {
+const getFirstElement = <T>(arr: T[]): T => {
     return arr[0];
 }
 
